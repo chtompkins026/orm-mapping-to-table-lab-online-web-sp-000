@@ -22,9 +22,9 @@ class Student
   end
   
   
-def save
+  def save
     sql = <<-SQL
-      INSERT INTO songs (name, album) 
+      INSERT INTO students (name, grade) 
       VALUES (?, ?)
     SQL
  
