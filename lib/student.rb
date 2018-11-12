@@ -4,5 +4,7 @@ class Student
   #  with DB[:conn]  
   
   
-  def in
+  def initialize(name, grade, id=nil)
+    @name, @grade, @id = name, grade, id 
+  end 
 end
